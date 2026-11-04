@@ -43,7 +43,7 @@ This app uses docker-based virtualization to run. To set up the project, follow 
 1. Clone the project by running:
 
     ```shell
-    git clone git@github.com:oskarbarcz/adsb-receiver-api.git
+    git clone git@github.com:mypreflight/adsb-receiver-api.git
     ```
 
 2. Prepare an environment variable file by copying `.env.dist` to `.env` and fill it with your data.
@@ -176,13 +176,13 @@ not be used for real-world aviation operations.
 [web-url]: https://barcz.me
 [banner]: .github/image/banner.png
 [homepage]: https://mypreflight.io
-[transponder-repo]: https://github.com/oskarbarcz/flight-tracker-transponder-app
+[transponder-repo]: https://github.com/mypreflight/transponder-app
 [docs-url]: https://adsb.mypreflight.io/api
-[ci-badge]: https://img.shields.io/github/actions/workflow/status/oskarbarcz/adsb-receiver-api/integrity.yaml?branch=main&style=for-the-badge&label=integrity
-[ci-url]: https://github.com/oskarbarcz/adsb-receiver-api/actions/workflows/integrity.yaml
-[release-badge]: https://img.shields.io/github/v/release/oskarbarcz/adsb-receiver-api?style=for-the-badge
-[release-url]: https://github.com/oskarbarcz/adsb-receiver-api/releases/latest
-[license-badge]: https://img.shields.io/github/license/oskarbarcz/adsb-receiver-api?style=for-the-badge
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/mypreflight/adsb-receiver-api/integrity.yaml?branch=main&style=for-the-badge&label=integrity
+[ci-url]: https://github.com/mypreflight/adsb-receiver-api/actions/workflows/integrity.yaml
+[release-badge]: https://img.shields.io/github/v/release/mypreflight/adsb-receiver-api?style=for-the-badge
+[release-url]: https://github.com/mypreflight/adsb-receiver-api/releases/latest
+[license-badge]: https://img.shields.io/github/license/mypreflight/adsb-receiver-api?style=for-the-badge
 [license-url]: https://unlicense.org
 [node-shield]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [node-url]: https://nodejs.org

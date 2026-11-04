@@ -1,8 +1,8 @@
 {
   "name": "adsb-receiver-api",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "The ADS-B receiver server component for the MyPreflight platform.",
-  "author": "oskarbarcz",
+  "author": "mypreflight",
   "private": true,
   "license": "Unlicense",
   "homepage": "https://mypreflight.io",

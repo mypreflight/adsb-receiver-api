@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/oskarbarcz/flight-position-api
+    image: ghcr.io/mypreflight/adsb-receiver-api
     build:
       context: .
       target: development
