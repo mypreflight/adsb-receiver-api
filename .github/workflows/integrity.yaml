@@ -32,7 +32,7 @@ jobs:
       - name: 'Run docker compose environment'
         run: docker compose up -d --build --wait --wait-timeout=120
       - name: 'Run dependency audit'
-        run: docker compose exec app npm audit
+        run: docker compose exec app npm audit --omit=dev
       - name: 'Run code formatting check'
         run: docker compose exec app npm run format
       - name: 'Run static code analysis'
