@@ -7,3 +7,10 @@ prisma/client
 
 .env
 .eslintcache
+
+# Infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+*_override.tf
+tfplan
