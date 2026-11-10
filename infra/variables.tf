@@ -37,7 +37,7 @@ variable "cloudflared_image" {
 
 variable "app_secrets_version" {
   type    = number
-  default = 2
+  default = 3
 }
 
 variable "admin_token" {
