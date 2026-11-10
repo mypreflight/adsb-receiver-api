@@ -9,9 +9,9 @@ variable "log_retention_days" {
 }
 
 variable "desired_count" {
-  description = "Running ADS-B tasks; 0 until the cutover"
+  description = "Running ADS-B tasks"
   type        = number
-  default     = 0
+  default     = 1
 
   validation {
     condition     = contains([0, 1], var.desired_count)
@@ -37,7 +37,7 @@ variable "cloudflared_image" {
 
 variable "app_secrets_version" {
   type    = number
-  default = 1
+  default = 2
 }
 
 variable "admin_token" {
